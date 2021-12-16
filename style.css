@@ -1,0 +1,46 @@
+#navbar {
+    background-color: rgba(150, 163, 182, 0.781);
+}
+#banner {
+    background: #373b44; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #373b44, #4286f4); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #373b44, #4286f4);
+}
+.profile-pic {
+        
+    height: 20vh;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 80px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-left: 0;
+    padding-left: 0;
+    align-self: center;
+
+}
+.profile-pic:hover {
+    height: 20vh;
+    max-width: 150%;
+    max-height: 150%;
+    border-radius:50px;
+    border-color: red;
+    border-width: 5px;
+
+}
+
+#carousel img{
+   max-height: 70 vh;
+   object-fit: cover;
+   filter: grayscale(40%);
+}
+
+#footer {
+    background: #373b44; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #373b44, #4286f4); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #373b44, #4286f4);
+
+
+}
+
+
+
