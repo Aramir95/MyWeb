@@ -8,8 +8,8 @@
 }
 .profile-pic {
         
-    height: 20vh;
-    max-height: 100%;
+    height: auto;
+    max-height: 15vh;
     max-width: 100%;
     border-radius: 80px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -20,18 +20,50 @@
 }
 .profile-pic:hover {
     height: 20vh;
-    max-width: 150%;
-    max-height: 150%;
+    max-width: 100%;
+    max-height: 100%;
     border-radius:50px;
     border-color: red;
     border-width: 5px;
 
 }
 
+
+
 #carousel img{
-   max-height: 70 vh;
+    max-height: 70vh ;
+    min-height: 40vh;
    object-fit: cover;
-   filter: grayscale(40%);
+   filter: grayscale(70%);
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color : rgba(0,0,0,0.5);
+    color: white;
+    z-index:1;
+
+}
+
+#carousel .overlay .container-xl,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+.btn-learn {
+    background-color: blueviolet;
+    color:whitesmoke;
+}
+.btn-learn:hover {
+    background-color: tomato;
 }
 
 #footer {
@@ -42,5 +74,13 @@
 
 }
 
+@media (min-width: 770px ){
+    #div-picture-banner{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
 
+
+    }
+}
 
