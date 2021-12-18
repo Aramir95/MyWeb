@@ -9,8 +9,9 @@
 .profile-pic {
         
     height: auto;
-    max-height: 25vh;
+    max-height: 20vh;
     max-width: 100%;
+    min-width: 10vw;
     border-radius: 80px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0,0,0,0.23);
     margin-left: 0;
@@ -66,6 +67,10 @@
     background-color: tomato;
 }
 
+.card-img-top {
+    height: 150px;
+    object-fit: scale-down;
+}
 #footer {
     background: #373b44; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #373b44, #4286f4); /* Chrome 10-25, Safari 5.1-6 */
@@ -74,18 +79,16 @@
 
 }
 
-#Career img{
-    
-    object-fit: cover;
-}
 
 @media (min-width: 770px ){
     #div-picture-banner{
         display: flex;
         justify-content: flex-start;
         align-items: center;
+    }
 
-
+    .card-img-top {
+        height: 250px;
     }
 }
 
