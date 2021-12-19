@@ -42,7 +42,7 @@
     position: relative;
 }
 
-#carousel .overlay {
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -51,6 +51,8 @@
     background-color : rgba(0,0,0,0.5);
     color: white;
     z-index:1;
+    height: 100%;
+    
 
 }
 
@@ -71,6 +73,14 @@
     height: 150px;
     object-fit: scale-down;
 }
+.badges{
+    text-align: end;
+}
+
+.slide-my-work{
+    position: relative;
+}
+
 #footer {
     background: #373b44; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #373b44, #4286f4); /* Chrome 10-25, Safari 5.1-6 */

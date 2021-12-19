@@ -28,10 +28,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item active"><a href ="#" class="nav-link">Career</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#about-me">Home</a></li>
+                        <li class="nav-item active"><a href ="#Career" class="nav-link">Career</a></li>
+                        <li class="nav-item active"><a href="#What-i-do" class="nav-link">Work</a></li>
                         <li class="nav-item active"><a href="#" class="nav-link">Projects</a></li>
-                        <li class="nav-item active"><a href="#" class="nav-link">Data Science</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">Contact me</a></li>
                     </ul>
                 </div>      
             </div>
@@ -60,7 +61,7 @@
                
     </header>
 
-    <main>
+    <main id="about-me">
         <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-pause="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -107,21 +108,25 @@
             </div>
         </div>
         <div class="container-xl">
-            <div class="row ms-1 ms-md-2 me-1 me-md-2 bg-dark align-items-center">
+            <div class="row ms-1 ms-md-2 me-1 me-md-2 align-items-center">
                 <div class="col-6 col-md-4 col-lg-3 mb-4">
                     <div class="card text-center">
                         <div class="card-header">
                           Bachelor's Degree
                         </div>
-                        <div class="embed-responsive embed-responsive-16by9">
+                        
 
-                            <img src="assets/Escudo-unmsm.svg.png" alt="Escudo-unmsm" class="rounded mx-auto card-img-top embed-responsive-item"/>
-                        </div>
+                        <img src="assets/Escudo-unmsm.svg.png" alt="Escudo-unmsm" class="card-img-top"/>
+                        
                         
                         <div class="card-body">
-                          <h5 class="card-title">Genetic Biologist and Biotechnologist</h5>
-                          <p class="card-text d-none d-md-block">First years as scientist and develop proyects on bioinformatics and health, focused on 
-                              molecular diagnosis and genotoxicity analysis.</p>
+                            <div class="badges me-3">
+                                <span class="badge bg-warning">Science</span>
+                                <span class="badge bg-info">Bioinformatics</span>
+                            </div>
+                            <h5 class="card-title">Genetic Biologist and Biotechnologist</h5>
+                            <p class="card-text d-none d-md-block">First years as scientist and develop proyects on bioinformatics and health, focused on 
+                                molecular diagnosis and genotoxicity analysis.</p>
                           
                         </div>
                         <div class="card-footer text-muted">
@@ -134,9 +139,13 @@
                         <div class="card-header">
                           Master's Degree Candidate
                         </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-
-                            <img src="assets/Escudo-unmsm.svg.png" alt="Escudo-unmsm" class="card-img-top embed-responsive-item"/>
+                        
+                            
+                        <img src="assets/Escudo-unmsm.svg.png" alt="Escudo-unmsm" class="card-img-top"/>
+                        
+                        <div class="badges me-3">
+                            <span class="badge bg-warning">Molecular</span>
+                            <span class="badge bg-info">Diagnostics</span>
                         </div>
                         <div class="card-body">
                           <h5 class="card-title">Molecular Biologist</h5>
@@ -153,12 +162,16 @@
                         <div class="card-header">
                           Postgraduate Diploma
                         </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <img src="assets/esan.jpg" alt="Escudo-unmsm" class="card-img-top embed-responsive-item"/>
+                        
+                    <img src="assets/esan.jpg" alt="Logo-Esan" class="card-img-top"/>
+                        
+                        <div class="badges me-3">
+                            <span class="badge bg-warning">Management</span>
+                            <span class="badge bg-info">Clinical Laboratory</span>
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Clinical Laboratory Management</h5>
-                          <p class="card-text d-none d-md-block">As Biologist with experience in clinical labarotory, I can be the manager and principal coordinator in laboratory.</p>
+                            <h5 class="card-title">Clinical Laboratory Management</h5>
+                            <p class="card-text d-none d-md-block">As Biologist with experience in clinical labarotory, I can be the manager and principal coordinator in laboratory.</p>
                         </div>
                         <div class="card-footer text-muted">
                             <a href="https://cde.esan.edu.pe/capacitacion/diplomas/gerencia-de-laboratorios-clinicos" class="btn btn-primary" target="_blank">More Information</a>
@@ -170,12 +183,16 @@
                 <div class="col-6 col-md-4 col-lg-3 mb-4">
                     <div class="card text-center">
                         <div class="card-header">
-                          Postgraduate Diploma
+                            Postgraduate Diploma
                         </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-
-                            <img src="assets/utec.jpg" alt="Escudo-unmsm" class="card-img-top embed-responsive-item"/>
+                        
+                        
+                        <img src="assets/utec.jpg" alt="Utec-logo" class="card-img-top"/>
+                        <div class="badges me-3">
+                            <span class="badge bg-warning">Data Science</span>
+                            <span class="badge bg-info">Machine Learning</span>
                         </div>
+                        
                         <div class="card-body">
                           <h5 class="card-title">Big Data and Machine Learning Against COVID-19</h5>
                           <p class="card-text d-none d-md-block">I had the chance to learn programming tools and form part of team with that developed machine learning tool to clasifficate cases of hospitalization od sars-cov-2 pacients vaccinated.</p>
@@ -192,6 +209,100 @@
             </div>
         </div>
         
+    </section>
+
+    <section id="What-i-do" class="bg-light">
+        <div class="container-xl pb-2 pb-md-3 mb-3">
+            <div class="row">
+                <div class="col text-center text-uppercase text-wrap">
+                    <small>This is</small>
+                    <h2>What I do</h2>
+                </div>
+            </div>
+        <div class="container-xl pb-5 pt-4">
+            <div class="row">
+                <div class="col">
+                    <div id="carousel-what-i-do" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-what-i-do" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel-what-i-do" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel-what-i-do" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carousel-what-i-do" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                          </div>
+
+                        <div class="carousel-inner">
+                          <div class="carousel-item active container-xl h-100">
+                            <div class="row h-100">
+                                <div class="col-12 col-md-6 mx-0 my-0 px-0 py-0">
+                                    <div class="ratio ratio-1x1 slide-my-work">
+                                        <img src="assets/My-Work/research-work.jpg" class="d-block w-100" alt="As-researcher"> 
+                                        <div class="overlay d-md-none">
+                                            
+                                            
+
+                                        </div> 
+
+                                    </div>
+                                        
+                                    
+                            
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="col-md-6 d-none d-md-block">
+
+                                    <div class="card h-100 bg-dark">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="card-link">Card link</a>
+                                          <a href="#" class="card-link">Another link</a>
+                                        </div>
+                                      </div>
+                                    
+
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="carousel-item">
+                              <div class="ratio ratio-1x1">
+                                  <img src="assets/My-Work/aucayacu.jpeg" class="d-block w-100" alt="My-health-team">
+                              </div>
+                          </div>
+
+                          <div class="carousel-item">
+                              <div class="ratio ratio-1x1">
+                                  <img src="assets/My-Work/molecular-task.jpg" class="d-block w-100" alt="At-molecular-lab">
+                              </div>
+                          </div>
+
+                          <div class="carousel-item">
+                            <div class="ratio ratio-1x1">
+                                <img src="assets/My-Work/bioinformatics.jpg" class="d-block w-100" alt="At-Bioinformatics-lab">
+                            </div>
+                          </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-what-i-do" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-what-i-do" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
     </section>
     
 
