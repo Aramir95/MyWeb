@@ -81,6 +81,10 @@
     position: relative;
 }
 
+#What-i-do img {
+    object-fit: scale-down;
+}
+
 #footer {
     background: #373b44; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #373b44, #4286f4); /* Chrome 10-25, Safari 5.1-6 */
