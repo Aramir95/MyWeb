@@ -82,7 +82,7 @@
 }
 
 #What-i-do img {
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 #footer {
