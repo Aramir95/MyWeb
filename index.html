@@ -16,7 +16,7 @@
 <link rel="stylesheet" type="text/css" href="style.css" media="screen">
 <body>
 
-    <header class="header">
+    <header class="header" id="home">
         <nav class="navbar navbar-expand-md navbar-light" id="navbar">
             <div class="container-xl">
                 <a class="navbar-brand" href="https://www.linkedin.com/in/aramir95/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -28,11 +28,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#about-me">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
                         <li class="nav-item active"><a href ="#Career" class="nav-link">Career</a></li>
                         <li class="nav-item active"><a href="#What-i-do" class="nav-link">Work</a></li>
                         <li class="nav-item active"><a href="#" class="nav-link">Projects</a></li>
-                        <li class="nav-item active"><a href="#" class="nav-link">Contact me</a></li>
+                        <li class="nav-item active"><a href="#contact-me" class="nav-link">Contact me</a></li>
                     </ul>
                 </div>      
             </div>
@@ -282,8 +282,8 @@
                                             <p class="card-text">Some of this projects:</p>
                                             <ul>
                                                 <li>Evaluation of the genotoxicity and antigenotoxicity of  <em>Vasconcellea candicans</em> by Somatic Mutation and Recombination Test (SMART).</li>
-                                                <li>Molecular cloning of the genome of the avian infectious bronchitis coronavirus.</li>
-                                                <li>Standardization and design of Real-Time PCR for dia</li>
+                                                <li class="d-none d-xl-block">Molecular cloning of the genome of the avian infectious bronchitis coronavirus.</li>
+                                                <li class="d-none d-xl-block">Standardization and design of Real-Time PCR for dia</li>
                                             </ul>
                                         
                                         </div>
@@ -385,10 +385,7 @@
                                             <div class="card-body text-wrap px-4 ">
                                                 
                                                 <blockquote class="blockquote">
-                                                    <p >I have been involved in multiple stages of 
-                                                        different research and experimental design. 
-                                                        Highlighting the fields of genotoxicity, molecular 
-                                                        cloning and genetic analysis.
+                                                    <p >I ha
                                                     </p>
                                                 </blockquote>
                                                 <p class="card-text">Some of this projects:</p>
@@ -483,6 +480,71 @@
         </div>
 
     </section>
+
+    <!--Contact me-->
+    <section id=contact-me class="pt-2 pb-3 mb-4">
+        <div class="container-xl">
+            <div class="row pb-3">
+                <div class="col text-uppercase text-center">
+                    <small>Form to</small>
+                    <h2>Contact me</h2>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-10 offset-1 text-center">
+                    <blockquote class="blockquote text-center px-md-3 px-lg-5 mx-5">
+                        <p>Please leave your questions and comments in the form below. So that we can respond to you, please enter your
+                            email address correctly.
+                        </p>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="row mt-3 pt-2">
+                <div class="col-8 offset-2">
+                    
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="form-first-name" class="form-label">First Name</label>
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name" id="form-first-name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="form-last-name" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="form-last-name">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputEmail" class="form-label">Email</label>
+                          <input type="email" class="form-control" placeholder="name@email.com" id="inputEmail">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCountry" class="form-label">Country</label>
+                          <input type="text" class="form-control" placeholder="Your country" id="inputCountry">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputSubject" class="form-label">Subject</label>
+                          <select type="text" class="form-select" id="inputSubject" placeholder="Subject">
+                            <option selected>Query</option>
+                            <option>Comment</option>
+                            <option>Contact you</option>
+                            <option>Other</option>
+                          </select>
+                        </div>
+                        <div class="col-12 form-group">
+                          <label for="inputMessage" class="form-label">Message</label>
+                          <textarea name="message" class="form-control" id="inputMessage" placeholder="Write your message here ...*"></textarea>
+                          <small>*Remember to write any question you may have.</small>
+                        </div>
+                        
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+
+
+    </section>
+
+    <!--/Contact me-->
     
 
 
@@ -499,6 +561,7 @@
                          </address>
                     </div>
                 </div>
+                
 
 
             </div>
