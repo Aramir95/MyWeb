@@ -14,6 +14,7 @@
     <title>Biologist Developer</title>
 </head>
 <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
 <body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
     
@@ -28,11 +29,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item "><a class="nav-link" href="#about-me">Hello</a></li>
-                        <li class="nav-item "><a href ="#Career" class="nav-link">Career</a></li>
-                        <li class="nav-item "><a href="#What-i-do" class="nav-link">Work</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#about-me"><strong>About</strong></a></li>
+                        <li class="nav-item "><a href ="#Career" class="nav-link"><strong>Career</strong></a></li>
+                        <li class="nav-item "><a href="#What-i-do" class="nav-link"><strong>Work</strong></a></li>
                         
-                        <li class="nav-item "><a href="#contact-me" class="nav-link">Contact me</a></li>
+                        <li class="nav-item "><a href="#contact-me" class="nav-link"><strong>Contact</strong></a></li>
                     </ul>
                 </div>      
             </div>
@@ -81,19 +82,26 @@
             <div class="overlay pe-2 ps-2 pe-md-4 ps-md-4">
                 <div class="container-xl">
                     <div class="row align-items-center">
-                        <div class="col-md-6 offset-md-6 text-md-end text-center text-wrap">
-                            <h1>About me :</h1>
-                            <p class="d-none d-md-block">Hello World! Estudié la carrera de Genética y Biotecnología en la "Universidad Nacional Mayor de San Marcos", egresando en el año 2018, y desenvolviéndome
+                        <div class="col-md-6 offset-md-6 text-md-center text-center text-wrap">
+                            <div class="container text-center text-md-center btn btn-outline-light mb-2 pb-2"><h1>About me</h1></div>                            
+                            <blockquote class="d-none d-md-block pt-3">
+                                <p>Hello World! I'm Angel Ramirez. I am a Molecular biologist and also a web developer and data scientist from Lima, Peru who loves technology, travels and peruvian food.</p>
+                                <p>Estudié la carrera de Genética y Biotecnología en la "Universidad Nacional Mayor de San Marcos", egresando en el año 2018, y desenvolviéndome
                                 en el área de biología molecular, estando la mayor parte del tiempo comprometido a actividades de diagnóstico molecular y apoyo clínico. Durante la pandemia del COVID-19 tuve
                                 la oportunidad de aprender a programar y formar partes de proyectos de Machine Learning contra el SARS-CoV-2, y desde entonces no he parado de aprender y entusiasmarme con la
-                                ciencia de datos y sus aplicaciones.
-                            </p>
-                            <a href="#" class="btn btn-outline-light">I want to known</a>
-                            <button type="button" class="btn btn-success">Contact me</button>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-learn" data-bs-toggle="modal" data-bs-target="#LearnModal">
-                                Learn with me
-                            </button>
+                                ciencia de datos y sus aplicaciones.</p>
+                            </blockquote>
+                            <div class="text-center">
+                                <a href="https://wa.me/51993845153?text=Hello%20%21%20I%20saw%20your%20website%20." class="btn btn-success" target="_blank" >WhatsApp</a>
+                                <button type="button" class="btn btn-success">Contact me</button>
+                                
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-learn" data-bs-toggle="modal" data-bs-target="#LearnModal">
+                                    Learn with me
+                                </button>
+
+                            </div>
+                            
                             
                             
 
@@ -107,12 +115,7 @@
           </div>        
     </main>
 
-    <!--Information symbol-->
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
-        </symbol>
-    </svg>
+    
     <!-- Modal Learn-->
     <div class="modal fade" id="LearnModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
