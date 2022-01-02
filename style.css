@@ -7,6 +7,27 @@
     background: -webkit-linear-gradient(to right, #373b44, #4286f4); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #373b44, #4286f4);
 }
+
+#bannerTitle{
+    color:#c1efed;
+    font-weight: 600;
+}
+#bannerSubTitle{
+    color: #001e32ff
+}
+.img-language{
+    height: 50px;
+}
+.modal-header{
+    background-color:#395d64;
+    color: #dbe0e6;
+}
+
+.modal-footer{
+    background-color:#395d64;
+    
+    
+}
 .profile-pic {
         
     height: auto;
@@ -58,11 +79,37 @@
 }
 
 
+.line-height{
+    line-height: 30px;
+}
+
+.line-height-2{
+    line-height: 25px;
+}
+.font-size-p{
+    font-size: 1.2rem;
+}
+#my-name{
+    font-family: 'Corinthia', cursive;
+    font-size: 2.2rem;
+    
+}
+#exampleModalLabel{
+    
+}
 .btn-learn {
     background-color: blueviolet;
     color:whitesmoke;
 }
 .btn-learn:hover {
+    background-color: tomato;
+}
+
+.btn-success:hover {
+    background-color: tomato;
+}
+
+.btn-secondary:hover {
     background-color: tomato;
 }
 
