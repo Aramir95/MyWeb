@@ -47,6 +47,25 @@
 
 }
 
+.card {
+    border: 1px solid #111e35;
+    
+}
+
+.card-header {
+    height: 50px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, powderblue 100%);
+    color: #001e32ff;
+    font-weight: bolder;
+    border-bottom: 1px solid #001e32ff ;
+}
+
+.card-footer{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, powderblue 100%);
+    border-top: 1px solid #001e32ff ;
+}
 
 
 #carousel img{
