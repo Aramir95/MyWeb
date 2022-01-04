@@ -200,7 +200,7 @@
 
 /*What-i-do*/
 #What-i-do .card-header{
-    height: 80px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -209,9 +209,22 @@
 #card-research{
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(41,128,185,1) 100%);
+    font-size:1.15rem;
+    
+}
+#card-clinic{
+    background: rgb(165,254,203);
+    background: radial-gradient(circle, rgba(165,254,203,1) 0%, rgba(32,189,255,1) 51%, rgba(84,51,255,1) 100%);
+    font-size: 1.25rem;
+    
 }
 
-
+#carousel-what-i-do{
+    height: 100%;
+}
+.carousel-item{
+    height: 100%;
+}
 @media (min-width: 770px ){
     #div-picture-banner{
         display: flex;
