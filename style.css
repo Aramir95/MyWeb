@@ -739,3 +739,10 @@
     85%{bottom: 0px;}
     100%{bottom: 0px;}
 }
+
+@media (max-width:700px) {
+    html{
+        font-size: 10px;
+        
+    }
+}
