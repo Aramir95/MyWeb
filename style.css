@@ -740,9 +740,39 @@
     100%{bottom: 0px;}
 }
 
-@media (max-width:700px) {
+@media (max-width:835px) {
     html{
-        font-size: 10px;
+        font-size: 14px;
         
     }
+
+    .line-height{
+        line-height: 23px;
+    }
+
+    .line-height-2{
+        line-height: 20px;
+    }
+
+    #modal-figs figcaption{
+        font-size: 0.8rem;
+    }
+
+    #contact-budges {display: flex; align-items:center; justify-content: space-evenly;}
+
+    #contact-budges svg{
+        height: 10; width: 10;
+        
+    }
+    #What-i-do .card{
+        font-size: 12px;
+    }
+    #What-i-do figcaption{
+        width: 100%;
+        font-size: 0px;
+        }
+    #card-languages img{
+        height: 40px;
+    }
+    
 }
