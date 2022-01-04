@@ -758,7 +758,6 @@
         font-size: 0.8rem;
     }
 
-    #contact-budges {;}
 
     #contact-budges svg{
         height: 10; width: 10;
@@ -776,11 +775,11 @@
     }
 
     #Career .card-title{
-        font-size: 0.9rem;
+        font-size: 0.88rem;
     }
     #Career .card-body{
         font-size: 0.8rem;
-        line-height: 1rem;
+        line-height: 0.8rem;
     }
 
     #contact-me .blockquote{
