@@ -26,5 +26,3 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 
 
-
-
