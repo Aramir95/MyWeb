@@ -747,18 +747,18 @@
     }
 
     .line-height{
-        line-height: 23px;
+        line-height: 1.5rem;
     }
 
     .line-height-2{
-        line-height: 20px;
+        line-height: 1.5rem;
     }
 
     #modal-figs figcaption{
         font-size: 0.8rem;
     }
 
-    #contact-budges {display: flex; align-items:center; justify-content: space-evenly;}
+    #contact-budges {;}
 
     #contact-budges svg{
         height: 10; width: 10;
