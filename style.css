@@ -182,7 +182,8 @@
 }
 
 #What-i-do img {
-    object-fit: cover;
+    object-fit:cover;
+    height: 100%;
 }
 
 .tooltip-inner {
@@ -195,6 +196,19 @@
     background: linear-gradient(to right, #373b44, #4286f4);
 
 
+}
+
+/*What-i-do*/
+#What-i-do .card-header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-research{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(41,128,185,1) 100%);
 }
 
 
