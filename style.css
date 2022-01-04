@@ -774,5 +774,23 @@
     #card-languages img{
         height: 40px;
     }
+
+    #Career .card-title{
+        font-size: 0.9rem;
+    }
+    #Career .card-body{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    #contact-me .blockquote{
+        
+        line-height: 1.5rem;
+        
+    }
+
+    #What-i-do .blockquote{
+        font-size: 0.7rem;
+    }
     
 }
