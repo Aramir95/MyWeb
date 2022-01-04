@@ -215,8 +215,20 @@
 #card-clinic{
     background: rgb(165,254,203);
     background: radial-gradient(circle, rgba(165,254,203,1) 0%, rgba(32,189,255,1) 51%, rgba(84,51,255,1) 100%);
+    font-size: 1.25rem;  
+}
+
+#card-developer{
+    background: rgb(240,242,240);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%,#0082c8  80%, #667db6 100%);
     font-size: 1.25rem;
+}
+#card-molecular{
     
+    background: rgb(240,242,240);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, #B2FEFA  60%, #0ED2F7 100%); 
+    font-size: 1.25rem;
+    border: 1px solid blanchedalmond;
 }
 
 #carousel-what-i-do{
@@ -237,6 +249,13 @@
     }
 }
 
+#card-languages img{
+    height: 60px;
+}
+
+#card-languages figcaption{
+    font-size: 0.8rem;
+}
 /*Effect animation in main*/
 .wrapper{
     position: absolute;
