@@ -256,6 +256,10 @@
 #card-languages figcaption{
     font-size: 0.8rem;
 }
+/*Footer stiles*/
+#footer{
+    color:#c1efed;
+}
 /*Effect animation in main*/
 .wrapper{
     position: absolute;
