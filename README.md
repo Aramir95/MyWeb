@@ -8,3 +8,6 @@ I used responsive design, so it is possible to observe differences according to 
 
 *This is the url of my website:*
 <https://aramir95.github.io/MyWeb/>
+
+"Where there is a will, there is a way"
+
